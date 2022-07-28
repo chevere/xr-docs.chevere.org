@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docker | XR Debug</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/logo.svg">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/logo.svg">
+    <link rel="mask-icon" href="/logo.svg" color="#3eaf7c">
+    <meta name="description" content="Lightweight debug utility for PHP.">
+    <meta name="theme-color" content="#23a8e0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/logo.svg">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" href="/assets/css/0.styles.557b7b3b.css" as="style"><link rel="preload" href="/assets/js/app.a18aaf3e.js" as="script"><link rel="preload" href="/assets/js/2.ce41a3cc.js" as="script"><link rel="preload" href="/assets/js/26.1a83e269.js" as="script"><link rel="preload" href="/assets/js/3.94c1c2b2.js" as="script"><link rel="prefetch" href="/assets/js/10.aaae39e9.js"><link rel="prefetch" href="/assets/js/11.4570689e.js"><link rel="prefetch" href="/assets/js/12.a9275858.js"><link rel="prefetch" href="/assets/js/13.d81923fb.js"><link rel="prefetch" href="/assets/js/14.909498fe.js"><link rel="prefetch" href="/assets/js/15.8b1705dc.js"><link rel="prefetch" href="/assets/js/16.e1f111e8.js"><link rel="prefetch" href="/assets/js/17.0a404166.js"><link rel="prefetch" href="/assets/js/18.6be0e7a1.js"><link rel="prefetch" href="/assets/js/19.28815b8e.js"><link rel="prefetch" href="/assets/js/20.356ad57c.js"><link rel="prefetch" href="/assets/js/21.7e05d7b4.js"><link rel="prefetch" href="/assets/js/22.2db34286.js"><link rel="prefetch" href="/assets/js/23.0431a3b4.js"><link rel="prefetch" href="/assets/js/24.f53172a3.js"><link rel="prefetch" href="/assets/js/25.0a4c572c.js"><link rel="prefetch" href="/assets/js/27.11273255.js"><link rel="prefetch" href="/assets/js/4.b63ce234.js"><link rel="prefetch" href="/assets/js/5.3418d711.js"><link rel="prefetch" href="/assets/js/6.6712526b.js"><link rel="prefetch" href="/assets/js/7.be476639.js"><link rel="prefetch" href="/assets/js/8.8a9305f5.js"><link rel="prefetch" href="/assets/js/9.354ab891.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.557b7b3b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.svg" alt="XR Debug" class="logo"> <span class="site-name can-hide">XR Debug</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/introduction/" class="nav-link">
+  🎉 Intro
+</a></div><div class="nav-item"><a href="/configuration/" class="nav-link">
+  ⚙️ Config
+</a></div><div class="nav-item"><a href="/server/" class="nav-link router-link-active">
+  🦄 Server
+</a></div><div class="nav-item"><a href="/helpers/" class="nav-link">
+  🕹 Helpers
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="🛸 Dev Menu" class="dropdown-title"><span class="title">🛸 Dev</span> <span class="arrow down"></span></button> <button type="button" aria-label="🛸 Dev Menu" class="mobile-dropdown-title"><span class="title">🛸 Dev</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/developer/custom-inspectors.html" class="nav-link">
+  Custom inspectors
+</a></li><li class="dropdown-item"><!----> <a href="/developer/server-spec.html" class="nav-link">
+  Server spec
+</a></li></ul></div></div> <a href="https://github.com/chevere/xr" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/introduction/" class="nav-link">
+  🎉 Intro
+</a></div><div class="nav-item"><a href="/configuration/" class="nav-link">
+  ⚙️ Config
+</a></div><div class="nav-item"><a href="/server/" class="nav-link router-link-active">
+  🦄 Server
+</a></div><div class="nav-item"><a href="/helpers/" class="nav-link">
+  🕹 Helpers
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="🛸 Dev Menu" class="dropdown-title"><span class="title">🛸 Dev</span> <span class="arrow down"></span></button> <button type="button" aria-label="🛸 Dev Menu" class="mobile-dropdown-title"><span class="title">🛸 Dev</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/developer/custom-inspectors.html" class="nav-link">
+  Custom inspectors
+</a></li><li class="dropdown-item"><!----> <a href="/developer/server-spec.html" class="nav-link">
+  Server spec
+</a></li></ul></div></div> <a href="https://github.com/chevere/xr" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>🦄 Server</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/server/" aria-current="page" class="sidebar-link">Server</a></li><li><a href="/server/docker.html" aria-current="page" class="active sidebar-link">Docker</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/server/docker.html#docker-commands" class="sidebar-link">Docker commands</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="docker"><a href="#docker" class="header-anchor">#</a> Docker</h1> <p>A <a href="https://github.com/chevere/xr/pkgs/container/xr" target="_blank" rel="noopener noreferrer">container image<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> is available for running the XR Debug server. Refer to <a href="/configuration/docker-configuration.html">Docker configuration</a> when using this container image.</p> <h2 id="docker-commands"><a href="#docker-commands" class="header-anchor">#</a> Docker commands</h2> <h3 id="run"><a href="#run" class="header-anchor">#</a> Run</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">docker</span> run -d -p <span class="token number">27420</span>:27420 --name chevere-xr ghcr.io/chevere/xr
+</code></pre></div><p>The server will be available at <a href="http://localhost:27420" target="_blank" rel="noopener noreferrer">http://localhost:27420<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="start"><a href="#start" class="header-anchor">#</a> Start</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">docker</span> container start chevere-xr
+</code></pre></div><h3 id="stop"><a href="#stop" class="header-anchor">#</a> Stop</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">docker</span> container stop chevere-xr
+</code></pre></div><h3 id="remove"><a href="#remove" class="header-anchor">#</a> Remove</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">docker</span> container <span class="token function">rm</span> chevere-xr -f
+</code></pre></div><h3 id="build"><a href="#build" class="header-anchor">#</a> Build</h3> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">docker</span> build -t ghcr.io/chevere/xr:tag <span class="token builtin class-name">.</span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/chevere/xr-docs/edit/main/server/docker.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/28/2022, 9:12:58 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/server/" class="prev router-link-active">
+        Server
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.a18aaf3e.js" defer></script><script src="/assets/js/2.ce41a3cc.js" defer></script><script src="/assets/js/26.1a83e269.js" defer></script><script src="/assets/js/3.94c1c2b2.js" defer></script>
+  </body>
+</html>
